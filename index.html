@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>PORTFOLIO</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="navbar">
+            <nav>
+                <div class="logo-sec">
+                    <h3>PORTFOLIO</h3>
+                </div>
+                <div class="navlist" id="navlist">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <input type="search" name="searchbox" id="Searchbox">
+
+                    <button type="submit" class="searchbtn">Enter to Search</button>
+                </div><i class="fas fa-bars hamgurgebtn" id="hamburgerbtn"></i>
+            </nav>
+        </div>
+
+    </header>
+
+
+
+    <main>
+        <div class="hero-container">
+            <div class="info">
+                <div class="creator-info">
+                    <img src="/images/creatorbg.jpeg" alt="">
+                    <h2>Hello, I am Sabir Shaikh.</h2>
+                    <p>I am a Front-End Developer.</p>
+                    <input type="button" value="HIRE ME" class="hirebtn">
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutme-container" id="about">
+            <div class="about-info">
+                <h1>About my skills.</h1>
+                <div class="myskills">
+                    <h2>I can work very smoothly with :</h2>
+                    <p>HTML</p>
+                    <div class="skillcontainer">
+                        <div class="skills html">90%</div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="skillcontainer">
+                        <div class="skills css">85%</div>
+                    </div>
+                    <p>JavaScript</p>
+                    <div class="skillcontainer">
+                        <div class="skills javascript">70%</div>
+                    </div>
+                    <p>Jquery</p>
+                    <div class="skillcontainer">
+                        <div class="skills jquery">75%</div>
+                    </div>
+                    <p>Bootstrap</p>
+                    <div class="skillcontainer">
+                        <div class="skills bootstrap">95%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="servicecards-container">
+            <h1>Services</h1>
+            <div class="split">
+                <div class="cards">
+                    <i class="fas fa-network-wired cardicon"></i>
+                    <h2 class="cardsinner-heading"> Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea nihil vitae quis eveniet
+                        dicta impedit dolor culpa illo beatae! Alias, facere vel!</p>
+                </div>
+                <div class="cards">
+                    <i class="fas fa-handshake cardicon"></i>
+                    <h2 class="cardsinner-heading">Designs per clients consult</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea nihil vitae quis eveniet
+                        dicta impedit dolor culpa illo beatae! Alias, facere vel!</p>
+                </div>
+            </div>
+            <div class="split">
+                <div class="cards">
+                    <i class="fas fa-hand-holding-heart cardicon"></i>
+                    <h2 class="cardsinner-heading"> Service as clients needs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea nihil vitae quis eveniet
+                        dicta impedit dolor culpa illo beatae! Alias, facere vel!</p>
+                </div>
+                <div class="cards">
+                    <i class="fas fa-users cardicon"></i>
+                    <h2 class="cardsinner-heading">Clients first</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea nihil vitae quis eveniet
+                        dicta impedit dolor culpa illo beatae! Alias, facere vel!</p>
+                </div>
+            </div>
+
+            <section>
+                <div class="contact-container" id="contact">
+                    <h1 class="contactheader">Contact</h1>
+                    <div class="contact-split">
+                        <div class="formcap">
+                            <i class="fas fa-feather-alt contacticon"></i>
+                            <h2>Write to us:</h2>      
+                        </div>
+                        <div class="form">
+                            <form action="">
+                                <label for="Email">Email:</label>
+                                <input type="email">
+                                <label for="textarea"> Enter Querry/suggestions/anything else below:</label>
+                                <textarea name="" id="textarea"></textarea>
+                                <button type="submit" class="Sentbtn">Send <span><i class="fab fa-telegram-plane"></i></span> </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="social">
+                            <a href="#"><span><i class="fab fa-github socialicon"></i></span> Sabirshaikh44</a>
+                            <a href="#"><span><i class="fab fa-instagram socialicon"></i></span> mr.mystery_sabir_sykh</a></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <h4>PORTFOLIO | Sabir Shaikh</h4>
+        <a href="#"><button type="backtotop">Back to top</button></a> 
+    </footer>
+
+
+    <script src="./portfoliojs.js"></script>
+</body>
+
+</html>
