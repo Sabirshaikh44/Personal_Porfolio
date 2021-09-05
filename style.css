@@ -93,7 +93,7 @@ input[type="search"] {
 .hero-container {
   border-top: 3px solid white;
   border-bottom: 3px ridge black;
-  background: url(/images/cool-background.png);
+  background: url(/Personal_Porfolio/images/cool-background.png);
   background-position: center;
   background-size: cover;
   height: max-content;
@@ -251,7 +251,7 @@ input[type="search"] {
 /* contact form */
 
 .contact-container{
-  background: url(/images/cool-background.png) no-repeat;
+  background: url(/Personal_Porfolio/images/cool-background.png) no-repeat;
   background-position: center;
   color: white;
   padding: 24px;
