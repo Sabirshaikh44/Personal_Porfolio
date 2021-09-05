@@ -1,0 +1,476 @@
+/* Importing various font-styles */
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+  padding: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  background: darkblue;
+  color: white;
+}
+.logo-sec {
+  width: 60%;
+  letter-spacing: 3px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  align-items: center;
+}
+.navlist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  /* display: none; */
+}
+.navlist ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style-type: none;
+  float: right;
+}
+.navlist li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navlist a {
+  text-decoration: none;
+  color: white;
+}
+.navlist a:hover {
+  color: yellow;
+}
+input[type="search"] {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  margin-left: 1.3rem;
+  width: 16rem;
+  padding: 6px;
+  border: transparent;
+}
+.searchbtn {
+  cursor: pointer;
+  background: darkblue;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: whitesmoke;
+  margin-left: 4px;
+  font-size: 11px;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.hamgurgebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  padding: 4px;
+  display: none;
+}
+/* main */
+/* hero */
+.hero-container {
+  border-top: 3px solid white;
+  border-bottom: 3px ridge black;
+  background: darkblue;
+  background-position: center;
+  background-size: cover;
+  height: max-content;
+  padding-bottom: 22px;
+}
+.info {
+  height: max-content;
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.creator-info {
+  text-align: center;
+  display: inline-block;
+  margin-top: 8px;
+  letter-spacing: 2px;
+}
+.creator-info img {
+  margin-top: 2px;
+  height: 28vh;
+  border-radius: 50%;
+}
+.creator-info h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+.creator-info p {
+  color: white;
+  font-size: 16px;
+  margin-top: 4px;
+}
+.hirebtn {
+  margin-top: 12px;
+  padding-left: 12px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 50%;
+  background: transparent;
+  border: 3px solid white;
+  color: white;
+  border-radius: 8px 0px 8px 0px;
+  font-weight: bold;
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+}
+.hirebtn:hover {
+  border: 3px solid gold;
+  letter-spacing: 3px;
+}
+/* about */
+.aboutme-container {
+  padding: 14px 33px;
+  text-align: center;
+  height: max-content;
+  background: white;
+}
+.about-info {
+  margin-top: 33px;
+}
+.about-info h1 {
+  font-size: 5.5vh;
+}
+.about-info p {
+  margin-top: 12px;
+  font-size: 1.3rem;
+  padding-bottom: 11px;
+}
+.myskills {
+  padding: 13px;
+  color: black;
+  /* border: 3px solid red; */
+}
+.myskills h2 {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+.skillcontainer {
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  border-radius: 5px;
+}
+
+.html {
+  width: 90%;
+  background-color: royalblue;
+}
+.css {
+  width: 85%;
+  background-color: royalblue;
+}
+.javascript {
+  width: 70%;
+  background-color: royalblue;
+}
+.jquery {
+  width: 75%;
+  background-color: royalblue;
+}
+.bootstrap {
+  width: 95%;
+  background-color: royalblue;
+}
+.servicecards-container {
+  padding: 14px;
+  background: whitesmoke;
+}
+.servicecards-container h1 {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cards {
+  background: white;
+  padding: 14px;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 6px;
+  line-height: 1.8rem;
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 4px;
+}
+.cardsinner-heading{
+  margin-top: 4px;
+}
+.cards p {
+  margin-top: 4px;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.cardicon{
+  font-size: 4.4rem;
+  background: transparent;
+  padding: 24px;
+  border-bottom: 3px solid darkblue;
+  margin-bottom: 6px;
+}
+
+/* contact form */
+
+.contact-container{
+  background: darkblue;
+  color: white;
+  padding: 24px;
+}
+.contact-container a{
+  margin-top: 4px;
+  text-decoration: none;
+  color: white;
+  margin-left: 4px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  display: block;
+}
+.contactheader h1{
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.socialicon{
+  font-size: 20px;
+}
+.contact-split{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.formcap{
+  text-align: left;
+  padding: 13px 24px;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.formcap .contacticon{
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+.formcap h2{
+  font-size: 1.8rem;
+}
+
+.form{
+  background: white;
+  color: black;
+  padding: 12px;
+  flex-basis: 100%;
+  border-radius: 4px;
+}
+label{
+  display: block;
+  margin-top: 24px;
+}
+input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 4px;
+  margin-top: 3px;
+  font-size: 1.1rem;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+}
+input:focus{
+  outline: none;
+}
+#textarea{
+  display: block;
+  width: 100%;
+  padding: 4px;
+  margin-top: 3px;
+  font-size: 16px;
+  border-style: none;
+  border-bottom: 2px solid black;
+  outline: white;
+}
+
+.Sentbtn{
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  padding: 12px;
+  background: transparent;
+  width: 100%;
+  margin-top: 14px;
+  border: transparent;
+  background: rgb(16, 53, 163);
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.Sentbtn:hover{
+  background: rgba(13, 13, 214, 0.863);
+}
+.social{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  margin-top: 14px;
+  background: darkblue;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.social a{
+  transition: ease-in-out .4s;
+}
+.social a:hover{
+  color: gold;
+  letter-spacing: 5px;
+
+}
+footer{
+  display: block;
+  background: darkblue;
+  padding: 10px;
+  line-height: 24px;
+}
+footer h4{
+  display: inline-block;
+  color: white;
+  margin-left: 14px;
+}
+footer button{
+  background: transparent;
+  color: white;
+  outline: none;
+  float: right;
+  padding: 4px;
+  border: none;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+  .cards p{
+    font-size: 1.3rem;
+  }
+  .contactheader{
+    font-size: 3rem;
+  }
+  .contact-split{
+    flex-direction:row;
+    margin-top: 34px;
+  }
+  label{
+    font-size: 2rem;
+  }
+  .formcap{
+    width: 50%;
+  }
+  .formcap .contacticon{
+    font-size: 8rem;
+  }
+  .formcap h2{
+    font-size: 4rem;
+    font-family: 'Mina', sans-serif;
+  }
+  #textarea{
+    font-size: 2rem;
+  }
+  .Sentbtn{
+    font-size: 1.4rem;
+  }
+  
+} 
+
+/* cell and tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    background: whitesmoke;
+  }
+  nav {
+    display: block;
+  }
+  .navlist {
+    display: none;
+  }
+  .navlist ul {
+    display: block;
+  }
+  .navlist li {
+    width: 100%;
+    margin-top: 4px;
+    margin-left: 0;
+  }
+  input[type="search"] {
+    width: 100%;
+    margin-top: 6px;
+    padding: 8px;
+    margin-bottom: 4px;
+    margin-left: 0;
+  }
+  .searchbtn {
+    padding: 8px;
+    margin-left: 0;
+  }
+  .hamgurgebtn {
+    display: inline-block;
+  }
+  .creator-info h2 {
+    font-size: 1.6rem;
+    color: white;
+  }
+  .about-info h1 {
+    font-size: 3.5vh;
+  }
+  .myskills h2 {
+    font-size: 2vh;
+  }
+  .myskills p {
+    font-size: 2vh;
+  }
+}
+/* large screen */
+@media only screen and (max-width: 1024px) {
+  .logo-sec {
+    width: 55%;
+  }
+}
